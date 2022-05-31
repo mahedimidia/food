@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+/* -----------navbar--------- */
+
+.navbar{
+    background: linear-gradient(to left,#368d,#653e);
+    position: sticky;
+    top: 0;
+}
+.nav-img{
+    border-radius: 10em;
+    width: 50px;
+    height: auto;
+}
+
+.navbar-toggler{
+    color: #fff;
+}
+
+.nav-link{
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 2px 2px 1px rgb(21, 172, 232);
+}
+.nav-link:hover{
+    color: purple;
+}
+
+
+
+
+
+
+/* ----------------curosel---------- */
+#carousel{
+    background: url('img/pexels-pixabay-326279.jpg') no-repeat;
+    background-position: center;
+    height: 100vh;
+   background-size: cover; 
+   width: 100%;
+}
+.curosel-imge{
+    height: 500px;
+    width: 550px;
+    margin:0 auto;
+    padding-top: 50px;
+    
+}
+.curosel-img{
+    height: 500px;
+    width: 100%;
+    border-radius: 2em;
+}
+
+
+
+
+/* ---------------banner--------- */
+
+
+.banner-img{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+}
+
+/* ---------details----------- */
+
+
+
+
+#deatls{
+    background: linear-gradient(to left,#3654,#3564);
+
+}
+
+
+.deatails-img{
+    height: 500px;
+    width: 100%;
+    border-radius: 2em;
+    box-shadow: 2px 1px 3px 2px;
+    margin-bottom: 20px;
+}
+
+.skill{
+    color: rgb(14, 145, 168);
+    text-decoration: none;
+    font-family: italic;
+    font-weight: 600;
+}
+.skill ul li{
+    list-style: none;
+    color: purple;
+    font-size: 20px;
+    outline: 2px solid;
+    background-color: #3564;
+    cursor: pointer;
+}
+.skill ul li:hover{
+    background-color: orange;
+    color: #fff;
+}
+
+#footer{
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 15px;
+    
+}
+#footer .fa{
+ font-size: 40px;
+ padding-top: 20px;
+}
